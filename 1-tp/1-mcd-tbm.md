@@ -1,6 +1,10 @@
-# Enoncé
+# TP : réseau transport Bordeaux
 
-Modélisez le réseau de transports TBM. Pour cette étude, nous allons nous restreindre uniquement au Tramway.
+---
+
+## Enoncé
+
+Modélisez le réseau de transports TBM avec un modèle conceptuel des données. Pour cette étude, nous allons nous restreindre uniquement au Tramway.
 
 ---
 
@@ -15,5 +19,7 @@ Modélisez le réseau de transports TBM. Pour cette étude, nous allons nous res
  - Nous indiquons une estimation du temps d’attente.
  - Nous diffusons des annonces visuelles et sonores en station et dans les trams pour vous informer en cas de coupure.
  - Nous intervenons sur place (conducteurs, agents d’information…) pour vous renseigner et vous aider.
+
+---
 
 ![plan](./img/plan_tbm.png)
