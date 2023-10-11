@@ -52,7 +52,7 @@ La partie facturation est gérée par une autre application. Le champ d'étude n
 
 1. Un hôtel ne peut avoir qu'une seule étoile
 2. Entre deux date un client ne peut avoir qu'une seule réservation, par contre le client peut réserver plusieurs chambre à ces mêmes dates.
-3. A la réservation est acompte est versé, il doit être d'au moins 30 % du montant total.
+3. A la réservation l'acompte est versé, il doit être d'au moins 30 % du montant total.
 4. Pour chaque consommation, on garde une date et heure
 5. Chaque prestation possède un prix unitaire, cependant pour la même prestation, on peut avoir des prix différents d'un hôtel à un autre du groupe hôtellier GT Toit.
 6. Une chambre ne peut pas avoir un numéro qui fini par le chiffre 13
