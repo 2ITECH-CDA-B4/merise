@@ -3,6 +3,9 @@
 ---
 
 En considérant tous les attributs proposés ci-après on établit les dépendances fonctionnelles (DF), les dépendances fonctionnelles élementaires et les dépendances fonctionnelles directes (DFD)
+
+***Notre contexte tient compte de tous les attributs ci-après avec les relations données.***
+
 | Relation | DF | DFE | DFR | commentaires |
 |:-|:-:|:-:|:-:|:-:|
 | 1. (numéro facture, numéro client) -> (nom du client)|X||X|Numéro client suffit à lui tout seul d'obtenir une adresse client donc pas DFE et DFR car rien d'autre d'intermédiaire permet d'avoir le nom du client hormis le numéro client
