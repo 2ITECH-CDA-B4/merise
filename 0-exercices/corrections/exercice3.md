@@ -18,4 +18,4 @@ En considérant tous les attributs proposés ci-après on établit les dépendan
 |8. (numéro commande, numéro article) -> (quantité commandée)|X|X|X|Il faut à la fois le numéro de commande et d'article pour avoir une seule valeur de la quantité commandé. DFE car les 2 attributs représentent le minimum d'attribut qu'on peut avoir à gauche et DFD car il n' y a pas d'intermédiaire
 |9. (numéro commande, numéro client) -> quantité commandée||||Nada pas de DF donc par déduction ni de DFE ni DFD. Effectivement à partir d'un numéro de commande et un numéro client on ne peut pas obtenir la quantité d'un article commandé.
 |10. (numéro commande) -> (date de commande)|X|X|X|All in
-|11. (numéro commande) -> (nom article)|||Nada pas de DF donc non plus pour les 2 autres
+|11. (numéro commande) -> (nom article)||||Nada pas de DF donc non plus pour les 2 autres
