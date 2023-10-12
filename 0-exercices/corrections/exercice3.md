@@ -8,7 +8,7 @@ En considérant tous les attributs proposés ci-après on établit les dépendan
 
 | Relation | DF | DFE | DFR | commentaires |
 |:-|:-:|:-:|:-:|:-:|
-| 1. (numéro facture, numéro client) -> (nom du client)|X||X|Numéro client suffit à lui tout seul d'obtenir une adresse client donc pas DFE et DFR car rien d'autre d'intermédiaire permet d'avoir le nom du client hormis le numéro client
+| 1. (numéro facture, numéro client) -> (nom du client)|X||X|Numéro client suffit à lui tout seul pour obtenir une adresse client donc pas DFE et DFR car rien d'autre d'intermédiaire permet d'avoir le nom du client hormis le numéro client
 |2. (numéro facture) -> (adresse client)|X|X||A partir d'une facture on peut obtenir qu'un seul client donc DF. DFE car on a bien à gauche 1 seul attribut. Pas de DFD car on peut passer par numéro client pour obtenir l'adresse du client
 |3. (numéro réservation) -> (numéro de chambre)|X|X|X
 |4. (numéro de réservation, numéro d'hotel) -> (nom du client)|X|||Pas DFE car numéro réservation suffit à accéder à un seul client et donc à un seul nom. Pas DFD car on peut passer par l'intermédiaire du numéro client
