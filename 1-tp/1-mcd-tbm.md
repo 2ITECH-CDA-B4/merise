@@ -4,7 +4,7 @@
 
 ## Enoncé
 
-Modélisez le réseau de transports TBM avec un modèle conceptuel des données. Pour cette étude, nous allons nous restreindre uniquement au Tramway.
+Modélisez le réseau de transports TBM avec un modèle conceptuel des données. Pour cette étude, **nous allons nous restreindre uniquement au Tramway**.
 
 ---
 
@@ -19,6 +19,10 @@ Modélisez le réseau de transports TBM avec un modèle conceptuel des données.
  - Nous indiquons une estimation du temps d’attente.
  - Nous diffusons des annonces visuelles et sonores en station et dans les trams pour vous informer en cas de coupure.
  - Nous intervenons sur place (conducteurs, agents d’information…) pour vous renseigner et vous aider.
+
+---
+
+## Règles de gestion
 
 ---
 
