@@ -40,7 +40,7 @@
 
 ![mcd](./img/mcd.svg)
 
-- Contrainte X entre Agent et Conducteur = un conducteur ne peut pas être un agent et agent + conducteur ne représente  pas la totalité du personnel, le personnel peut être autre qu'un agent ou un conducteur.
+- Contrainte X entre Agent et Conducteur : un conducteur ne peut pas être un agent, vice-versa. agent + conducteur ne représentent  pas la totalité du personnel, le personnel peut être autre qu'un agent ou un conducteur.
 
 - Contrainte totalité entre Visuelle et Sonore, une information peut être l'un ou l'autre ou les deux à la fois, l'ensemble représente  la totalité des informations. Il n'y a pas d'autres choix.
 
