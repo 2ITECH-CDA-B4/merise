@@ -130,5 +130,6 @@ Lorsque vous avez des DF, vous pouvez supprimer les associations concernées et 
 Par rapport à la solution 4, il y a eu du progrès.
 - Attention, vous ne pouvez pas lier directement *HOTEL* à *CHAMBRE* sans nommer l'association qui fait le lien entre les deux entités. Idem pour *CHAMBRE* et *RESERVATION*. Idem entre *RESERVATION* et *CLIENT*, *CLIENT* et *CONSOMMATION*.
 - Pareil que GT3, vous ne devez pas faire apparaitre les clés étrangères dans les entités. Dans le MCD, la notion de clé étrangère n'existe pas donc *id_reservation* dans *CLIENT*, *nom_service* dans *CONSOMMATION*, *id_categorie* dans *CHAMBRE*, *id_chambre* dans *RESERVATION* et j'en ai surement oublié d'autres... Ils ne doivent pas apparaitre dans ces entités.
+- Attention à la cardinalité côté Chambre avec la relation Categorie.
 
 ![mcd_5](./img/stagiaires/mcd_5.svg)
